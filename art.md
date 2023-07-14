@@ -4,4 +4,4 @@ title: art
 permalink: /art/
 ---
 
-/assets/pixelcat.jpg
+/assets/pixelcat.png
