@@ -21,7 +21,7 @@ json:
     - 123 Main St, Anytown, USA
   contact:
     #office: Foobar Hall 1.23
-    phone: +11 6565 6797
+    #phone: +11 6565 6797
     email: nadzair.nadia@gmail.com
   #demo: https://hacked-jekyll.netlify.app
   #source: https://github.com/piazzai/hacked-jekyll
