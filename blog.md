@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: defaul
+ttitle: blog
+permalink: /blog/
 ---
 
 <main>
