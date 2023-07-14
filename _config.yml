@@ -47,3 +47,6 @@ whitelist:
 sass:
   sass_dir: _sass
   sourcemap: never
+
+imagesurl: "/assets/img/"
+thumbsurl: "/assets/thumbs/"
