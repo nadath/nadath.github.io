@@ -4,4 +4,4 @@ title: art
 permalink: /art/
 ---
 
-{% include photo.html folder="art" %}
+{% include photo.html folder="img" %}
