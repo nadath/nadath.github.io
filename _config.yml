@@ -14,7 +14,6 @@ json:
     - This tiny website looks barren
     - Explore away, I might fill it up with some arts
     - Later!
-  art: art.md
   cv: assets/cv.pdf
   address:
     - University of Jekyll
@@ -24,7 +23,7 @@ json:
     #office: Foobar Hall 1.23
     phone: +12 3456 7890
     email: nadiaathirah0.0@gmail.com
-  #demo: https://hacked-jekyll.netlify.app
+  demo: https://nadath.github.io/art/
   #source: https://github.com/piazzai/hacked-jekyll
   profiles:
     #facebook: https://www.facebook.com
