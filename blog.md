@@ -1,6 +1,6 @@
 ---
-layout: defaul
-ttitle: blog
+layout: default
+title: blog
 permalink: /blog/
 ---
 
