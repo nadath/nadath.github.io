@@ -64,7 +64,7 @@ layout: default
     <p><span class="key">art</span><span class="attr"><a href="{{ site.json.art }}">{{ art }}</a></span></p>
     {% endif %}
     {% if site.json.blog %}
-    {% assign blog = site.json.blog | split: "github.com/" | slice: 1 %}
+    {% assign blog = site.json.blog | split: "//" | slice: 1 %}
     <p><span class="key">blog</span><span class="attr"><a href="{{ site.json.blog }}">{{ blog }}</a></span></p>
     {% endif %}
   </div>
