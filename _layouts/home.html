@@ -59,9 +59,9 @@ layout: default
     {% endif %}
   </div>
   <div class="block">
-    {% if site.json.demo %}
-    {% assign demo = site.json.demo | split: "//" | slice: 1 %}
-    <p><span class="key">demo</span><span class="attr"><a href="{{ site.json.demo }}">{{ demo }}</a></span></p>
+    {% if site.json.art %}
+    {% assign art = site.json.art | split: "//" | slice: 1 %}
+    <p><span class="key">art</span><span class="attr"><a href="{{ site.json.art }}">{{ art }}</a></span></p>
     {% endif %}
     {% if site.json.source %}
     {% assign source = site.json.source | split: "github.com/" | slice: 1 %}
