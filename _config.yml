@@ -10,10 +10,10 @@ url: https://nadath.github.io
 json:
   name: Ath
   description:
-    - Hello! My Name is Ath.
-    - This tiny website looks barren.
-    - Explore away, I might fill it up with some arts.
-    - Hope you like it!
+    - Hello! My Name is Ath
+    - This tiny website looks barren
+    - Explore away, I might fill it up with some arts
+    - Later!
   cv: assets/cv.pdf
   address:
     - University of Jekyll
