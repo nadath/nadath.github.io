@@ -10,7 +10,7 @@ url: https://nadath.github.io
 json:
   name: Ath
   description:
-    - Hello! My Name is Ath
+    - Hello!
     - This tiny website looks barren
     - Explore away, I might fill it up with some arts
     - Later!
@@ -23,7 +23,7 @@ json:
     #office: Foobar Hall 1.23
     phone: +12 3456 7890
     email: nadiaathirah0.0@gmail.com
-  art: https://nadath.github.io/art/
+  demo: https://nadath.github.io/art/
   #source: https://github.com/piazzai/hacked-jekyll
   profiles:
     #facebook: https://www.facebook.com
