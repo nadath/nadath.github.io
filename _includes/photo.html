@@ -1,10 +1,10 @@
 <html>
 <head>
 <style>
-div.image-gallery {
+ div.image-gallery {
     width: 100%;
     display: grid;
-    grid-template-columns: 60p;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
     justify-content: center;
     padding: 4px;
   }
@@ -18,7 +18,7 @@ div.image-gallery {
 
   div.img-gallery {
 	width: 100%;
-  	height: auto;
+  	height: 200px;
 	object-fit: cover;
   	transform: scale(1);
   	transition: all 0.3s ease-in-out;
