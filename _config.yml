@@ -10,9 +10,10 @@ url: https://nadath.github.io
 json:
   name: Ath
   description:
-    - Welcome to
-    - This tiny web
-    - Of mine
+    - Hello! My Name is Ath.
+    - This tiny website looks barren.
+    - Explore away, I might fill it up with some arts.
+    - Hope you like it!
   cv: assets/cv.pdf
   address:
     - University of Jekyll
@@ -27,8 +28,8 @@ json:
   profiles:
     #facebook: https://www.facebook.com
     twitter: https://twitter.com/athaelas
-    #instagram: https://www.instagram.com
-    linkedin: https://www.linkedin.com/nadianadzair
+    instagram: https://www.instagram.com/nadianadzair
+    linkedin: https://www.linkedin.com/in/nadianadzair/
     #stackoverflow: https://stackoverflow.com
     github: https://github.com/nadath
 
