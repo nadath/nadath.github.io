@@ -4,4 +4,4 @@ title: art
 ---
 
 {% include element.html %}
-{% include photo.html folder="img" %}
+{% include image.html folder="img" %}

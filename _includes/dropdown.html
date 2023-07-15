@@ -1,6 +1,6 @@
 <body>
   <div class="dropdown">
-    <button onclick="drop()" class="dropbtn">{% include hovernav.html %}</button>
+    <button onclick="drop()" class="dropbtn">{% include nav.html %}</button>
     <div id="myDropdown" class="dropdown-content">
       <a href="{{ site.url }}">Home</a>
       <a href="{{ site.json.art }}">Art</a>
@@ -9,24 +9,24 @@
   </div>
 
   <script>
-  /* When the user clicks on the button, 
-  toggle between hiding and showing the dropdown content */
-  function drop() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function drop() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
 
   // Close the dropdown if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
         }
       }
     }
-  }
   </script>
 </body>
