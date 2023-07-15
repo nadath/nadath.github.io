@@ -6,7 +6,7 @@ title: blog
 {% include element.html %}
 
 <main>
-  <div class="element">
+  <div class="block">
     <h1>Latest Posts</h1>
     <ul>
       {% for post in site.posts %}
