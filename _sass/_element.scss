@@ -1,8 +1,10 @@
 #element {
   position: absolute;
+  z-index: 2;
   }
 
 #elementheader {
   cursor: grab;
   background-color: var(--oc-gray-8);
+  z-index: 3;
 }
