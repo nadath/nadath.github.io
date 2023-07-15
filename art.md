@@ -6,9 +6,18 @@ permalink: /art/
 
 {% include photo.html folder="img" %}
 
-<main>
-    <div class="block">
-        {% assign home = site.url | split: "//" | slice: 1 %}
-        <a href="{{ site.url }}">{{ home }}</a>
-    </div>
-</main>
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+</style>
+
+<div class="footer">
+  {% assign home = site.url | split: "//" | slice: 1 %}
+  <a href="{{ site.url }}">{{ home }}</a>
+</div>
