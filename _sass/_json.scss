@@ -1,5 +1,6 @@
 .json {
   white-space: normal;
+  overflow: auto
 
   &:before {
     content: "{";
@@ -13,7 +14,6 @@
   margin-left: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  overflow: auto
 }
 
 .key:after {
