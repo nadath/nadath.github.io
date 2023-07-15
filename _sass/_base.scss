@@ -9,10 +9,11 @@ body {
 main {
   position: absolute;
   overflow: auto;
-  width: 100%;
+  text-align: center;
+  /*width: 100%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
 
   @media (min-width: 576px) {
     font-size: 18px;
