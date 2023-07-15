@@ -23,12 +23,6 @@
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
 }
-
-.navbar {
-  background-color: #c9c9c9;
-  display: flex;
-  padding: 16px;
-}
 </style>
 </head>
 <body>
@@ -39,22 +33,12 @@
   <div class="bar3"></div>
 </div>
 
-<nav class="navItems">
-  <div class="navLink">
-    Link
-  </div>
-  <div class="navLink">
-    Link
-  </div>
+<a href="{{ site.url }}">Home</a>
 
 <script>
 function navToggle(x) {
   x.classList.toggle("change");
-  const navs = document.querySelectorAll('.navItems')
-  
-  navs.forEach(nav => nav.classList.toggle('navbar'));
 }
-
 </script>
 
 </body>
