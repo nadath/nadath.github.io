@@ -10,9 +10,10 @@ permalink: /art/
 .footer {
   position: fixed;
   left: 0;
-  bottom: 1%;
+  bottom: 0;
   width: 100%;
   color: var(--oc-green-4);
+  background-color: var(--oc-gray-9);
   text-align: center;
 }
 </style>
