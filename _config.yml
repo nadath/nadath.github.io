@@ -12,7 +12,7 @@ json:
   description:
     - Hello!
     - This tiny website looks barren
-    - Explore away, I might fill it up with some art
+    - I might fill it up with some art
     - Later!
   cv: assets/cv.pdf
   address:
