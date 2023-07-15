@@ -13,7 +13,7 @@ permalink: /art/
   bottom: 0;
   width: 100%;
   color: var(--oc-green-4);
-  background-color: var(--oc-gray-9);
+  background-color: var(--oc-gray-1);
   text-align: center;
 }
 </style>
