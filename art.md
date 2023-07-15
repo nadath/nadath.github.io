@@ -14,7 +14,7 @@ permalink: /art/
   width: 100%;
   color: var(--oc-green-4);
   background-color: var(--oc-gray-9);
-  text-align: left;
+  text-align: center;
 }
 </style>
 
