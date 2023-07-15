@@ -1,8 +1,10 @@
 #element {
   position: absolute;
   z-index: 2;
-  float: right;
-  display: inline;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  right=0;
   }
 
 #elementheader {
@@ -10,5 +12,4 @@
   background-color: var(--oc-gray-9);
   z-index: 3;
   float: right;
-  display: inline;
 }
