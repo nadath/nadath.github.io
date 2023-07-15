@@ -12,7 +12,7 @@ json:
   description:
     - Hello!
     - This tiny website looks barren
-    - Explore away, I might fill it up with some arts
+    - Explore away, I might fill it up with some art
     - Later!
   cv: assets/cv.pdf
   address:
@@ -23,8 +23,8 @@ json:
     #office: Foobar Hall 1.23
     phone: +12 3456 7890
     email: nadiaathirah0.0@gmail.com
-  art: https://nadath.github.io/art.html
-  blog: https://nadath.github.io/blog.html
+  art: https://nadath.github.io/art/
+  blog: https://nadath.github.io/blog/
   profiles:
     #facebook: https://www.facebook.com
     #twitter: https://twitter.com/nadiathae
