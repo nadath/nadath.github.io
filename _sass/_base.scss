@@ -9,6 +9,9 @@ body {
 main {
   position: absolute;
   width: auto;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50px, -50px);
 
   @media (min-width: 576px) {
     font-size: 18px;
