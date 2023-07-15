@@ -4,11 +4,11 @@ body {
   font-weight: 200;
   background-color: var(--oc-gray-9);
   color: var(--oc-green-4);
+  overflow: auto;
 }
 
 main {
   position: absolute;
-  overflow: auto;
   width: 100%;
   top: 50%;
   left: 50%;
