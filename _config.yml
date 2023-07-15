@@ -51,6 +51,4 @@ sass:
 imagesurl: "/assets/img/"
 thumbsurl: "/assets/thumbs/"
 
-...
 permalink: /:title/
-...
