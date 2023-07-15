@@ -1,5 +1,5 @@
 .dropbtn {
-  background-color: var(--oc-gray-7);
+  background-color: var(--oc-gray-8);
   color: var(--oc-green-4);
   padding: 16px;
   font-size: 16px;
@@ -8,7 +8,7 @@
 }
   
 .dropbtn:hover, .dropbtn:focus {
-  background-color: var(--oc-gray-8);
+  background-color: var(--oc-gray-9);
 }
 
 .dropdown {
@@ -19,7 +19,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--oc-gray-7);
+  background-color: var(--oc-gray-8);
   min-width: 120px;
   overflow: auto;
   z-index: 1;
@@ -30,6 +30,6 @@
   display: block;
 }
 
-.dropdown a:hover {background-color: var(--oc-gray-8)}
+.dropdown a:hover {background-color: var(--oc-gray-9)}
 
 .show {display: block;}
