@@ -1,14 +1,14 @@
 <html>
 <head>
 <style>
-#element {
+#nav {
   position: absolute;
   background-color: var(--oc-gray-7);
   text-align: center;
   border: 1px solid var(--oc-gray-6);
   opacity: 0.8;
 }
-#elementheader {
+#navheader {
   padding: 10px 20px;
   cursor: grab;
   background-color: var(--oc-gray-6);
@@ -18,13 +18,13 @@
 <body>
 
 <div id="element">
-  <div id="elementheader">"{% include menu.html %}"</div>
-    <a href="{{ site.url }}">Home</a>
+  <div id="elementheader">{% include menu.html %}</div>
+  <a href="{{ site.url }}">Home</a>
 </div>
 
 <script>
 //Make the DIV element draggagle:
-dragElement(document.getElementById("element"));
+dragElement(document.getElementById("nav"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
