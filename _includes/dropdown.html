@@ -2,8 +2,8 @@
 <head>
 <style>
 .dropbtn {
-  background-color: #3498DB;
-  color: white;
+  background-color: var(--oc-gray-7);
+  color: var(--oc-green-4);
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -11,7 +11,7 @@
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: var(--oc-gray-8);
 }
 
 .dropdown {
@@ -22,33 +22,29 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: var(--oc-gray-6);
   min-width: 160px;
   overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
   padding: 12px 16px;
-  text-decoration: none;
   display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {background-color: var(--oc-gray-5)}
 
 .show {display: block;}
 </style>
 </head>
-<body style="background-color:white;">
+<body>
 
 <div class="dropdown">
-  <button onclick="drop()" class="dropbtn">Dropdown</button>
+  <button onclick="drop()" class="dropbtn">{% include animenav %}</button>
   <div id="myDropdown" class="dropdown-content">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a href="{{ site.url }}">Home</a>
+    <a href="{{ site.url }}" + "/art/">Art</a>
   </div>
 </div>
 
