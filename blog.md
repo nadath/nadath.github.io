@@ -5,10 +5,9 @@ title: blog
 
 {% include element.html %}
 
-<h1>Latest Posts</h1>
-
 <main>
   <div class="block">
+    <h1>Latest Posts</h1>
     <ul>
       {% for post in site.posts %}
         <li>
