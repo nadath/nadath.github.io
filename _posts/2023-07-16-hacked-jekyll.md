@@ -13,9 +13,9 @@ I managed to create a site and publish it on my GitHub Pages, but once I tried c
 
 ### Hacked Jekyll
 
-Hacked-jekyll is a "microtheme that looks like JSON". I loved the coder/hacker theme and used it as a homepage. I expanded it by adding a photo gallery, navigation bar, and a blog page. Here's the outcome: <https://github.com/nadath/hacking-jekyll>, thanks to these references:
+Hacked-jekyll is a "microtheme that looks like JSON". I loved the coder/hacker theme and used it as a homepage. I expanded it by adding a photo gallery, a draggable navigation bar (idea inspired by draggable posts on [Anon](http://anon.com.hk)), and a blog page. Here's the outcome: <https://github.com/nadath/hacking-jekyll>, thanks to these references:
 1. [A simple image gallery in Jekyll without plugins](https://dmnfarrell.github.io/software/jekyll-galleries)
-2. [Create a Draggable HTML Element](https://www.w3schools.com/howto/howto_js_draggable.asp) (idea inspired by draggable posts on [Anon](http://anon.com.hk))
+2. [Create a Draggable HTML Element](https://www.w3schools.com/howto/howto_js_draggable.asp)
 
 I'm thinking up something cool and weird to customize the blog page further. Let's see how it goes.
 
