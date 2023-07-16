@@ -7,7 +7,7 @@ TLDR; How I built my portfolio/blog using Jekyll.
 
 ## The problem starts
 
-I successfully installed Jekyll. Had a hiccup in installing ruby using chruby on my Mac, I used rbnev instead and it works. I mainly referred to the docs on [GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll), [Jekyll](https://jekyllrb.com/docs/installation/) and [rbnev](https://github.com/rbenv/rbenv). Stackoverflow is also a great help in solving the small hiccups, as always.
+I successfully installed Jekyll. Had a hiccup in installing ruby using chruby on my Mac, I used rbnev instead and it works. I mainly referred to the docs on [GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) and [Jekyll](https://jekyllrb.com/docs/installation/). Stackoverflow is also a great help in solving the small hiccups, as always.
 
 I managed to publish and run it on my GitHub pages, but once I tried changing the theme using remote_theme and plugins, the changes didn't appear on my site. I couldn't figure it out. In the end, I forked one of the themes from https://jamstackthemes.dev/ssg/jekyll/ (they have a few cool ones) and customized from there.
 
