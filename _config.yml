@@ -12,7 +12,7 @@ json:
   description:
     - Hello!
     - This tiny website looks barren
-    - I might fill it up with some art
+    - I might fill it up with some arts
     - Later!
   cv: assets/cv.pdf
   address:
@@ -27,8 +27,8 @@ json:
   blog: https://nadath.github.io/blog
   profiles:
     #facebook: https://www.facebook.com
-    #twitter: https://twitter.com/nadiathae
-    #instagram: https://www.instagram.com/nadianadzair
+    #twitter: https://twitter.com/
+    #instagram: https://www.instagram.com/
     linkedin: https://www.linkedin.com/in/nadianadzair/
     #stackoverflow: https://stackoverflow.com
     github: https://github.com/nadath
