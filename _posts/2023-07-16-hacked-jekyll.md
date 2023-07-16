@@ -25,7 +25,7 @@ For now, we've got to move on to the next step,
 
 ### Master a niche skill or new language
 
-I've been switching tasks between learning Blender and Javascript. I started some tutorials on [Codecademy](https://www.codecademy.com/learn) and [freeCodeCamp](https://www.freecodecamp.org)]. They're awesome and free, but I got bored and distracted easily. I think I've got some idea of HTML, CSS, and Javascript from building my Jekyll site, so that's good enough for a start.
+I've been switching tasks between learning Blender and Javascript. I started some tutorials on [Codecademy](https://www.codecademy.com/learn) and [freeCodeCamp](https://www.freecodecamp.org). They're awesome and free, but I get bored and distracted easily. I think I've got some idea of HTML, CSS, and Javascript in building a website, so that's good enough for a start.
 
 Blender it is.
 
