@@ -19,15 +19,17 @@ The outcome: <https://github.com/nadath/hacking-jekyll>, thanks to the following
 1. [A simple image gallery in Jekyll without plugins](https://dmnfarrell.github.io/software/jekyll-galleries)
 2. [Create a Draggable HTML Element](https://www.w3schools.com/howto/howto_js_draggable.asp)
 
-I'm thinking up something cool and weird to customize the blog page further. Let's see how it'd go.
+I'm thinking up something cool/weird to customize the blog page further. Let's see how it'd go.
 
 For now, we've got to move on to the next step,
 
-### Master a niche skill or new language
+### Learn a niche skill or new language
 
-I've been switching tasks between learning Blender and Javascript. I started some tutorials on [Codecademy](https://www.codecademy.com/learn) and [freeCodeCamp](https://www.freecodecamp.org). They're awesome and free, but I get bored and distracted easily. I think I've got some idea of HTML, CSS, and Javascript in building a website, so that's good enough for a start.
+While building this site, I've been switching tasks between learning Blender and Javascript. Blender is common among artists but having animation skills as a developer would be some sort of niche, wouldn't it? Plus, I've got a project in mind related to open source digital art application -- it's a secret. 
 
-Blender it is.
+So I started some tutorials on [Codecademy](https://www.codecademy.com/learn) and [freeCodeCamp](https://www.freecodecamp.org). They're awesome and free, but I get bored and distracted easily. I think I've got a hang of how to use HTML, CSS, and Javascript in building a website, so that's good enough for a start.
+
+Got to focus on Blender now.
 
 Let's go!
 
