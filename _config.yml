@@ -11,8 +11,9 @@ json:
   name: Ath
   description:
     - Hello!
-    - This tiny website looks barren
-    - I might fill it up with some arts
+    - This tiny website
+    - Looks barren
+    - Might create some arts
     - Later!
   cv: assets/cv.pdf
   address:
