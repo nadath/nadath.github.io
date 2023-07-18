@@ -43,7 +43,7 @@ TLDR; How I built my portfolio/blog using Jekyll.
 
 > Got to focus on Blender now.
 
-Let's go!
+> Let's go!
 
 
 
