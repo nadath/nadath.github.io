@@ -16,6 +16,11 @@
   margin-bottom: 1rem;
 }
 
+.post {
+  display: block;
+  margin: 2rem !important;
+}
+
 .key:after {
   content: ": ";
 }
