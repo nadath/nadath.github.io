@@ -5,9 +5,9 @@ layout: default
 <main class="json">
   <div class="block">
     {% if site.json.name %}
-    <br><span class="key">name</span><span class="attr">{{ site.json.name }}</span></p>
+    <p><span class="key">name</span><span class="attr">{{ site.json.name }}</span></p>
     {% else %}
-    <br><span class="key">name</span><span class="attr">{{ site.title }}</span></p>
+    <p><span class="key">name</span><span class="attr">{{ site.title }}</span></p>
     {% endif %}
     {% if site.json.description %}
     {% if site.json.description.first %}
@@ -16,56 +16,56 @@ layout: default
       <span>{{ i | prepend: '"' | append: '",'}}</span>
       {% endfor %}
     </div>
-    <br><span class="key">description</span>{% include typed.html %}</p>
+    <p><span class="key">description</span>{% include typed.html %}</p>
     {% else %}
-    <br><span class="key">description</span><span class="attr">{{ site.json.description }}</span></p>
+    <p><span class="key">description</span><span class="attr">{{ site.json.description }}</span></p>
     {% endif %}
     {% else %}
-    <br><span class="key">description</span><span class="attr">{{ site.description }}</span></p>
+    <p><span class="key">description</span><span class="attr">{{ site.description }}</span></p>
     {% endif %}
   </div>
   <div class="block">
     {% if site.json.cv %}
     {% assign cv = site.json.cv | split: "/" | slice: -1 %}
-    <br><span class="key">cv</span><span class="attr"><a href="{{ site.json.cv }}">{{ cv }}</a></span></br>
+    <p><span class="key">cv</span><span class="attr"><a href="{{ site.json.cv }}">{{ cv }}</a></span></p>
     {% endif %}
   </div>
   <div class="block">
     {% if site.json.address %}
     {% if site.json.address.first %}
-    <br><span class="array-key">address</span></br>
+    <p><span class="array-key">address</span></p>
     <div class="array">
       {% for i in site.json.address %}
-      <br class="array-attr">{{ i }}</br>
+      <p class="array-attr">{{ i }}</p>
       {% endfor %}
     </div>
     {% else %}
-    <br><span class="key">address</span><span class="attr">{{ site.json.address }}</span></br>
+    <p><span class="key">address</span><span class="attr">{{ site.json.address }}</span></p>
     {% endif %}
     {% endif %}
   </div>
   <div class="block">
     {% if site.json.contact %}
     {% if site.json.contact.first %}
-    <br><span class="list-key">contact</span></br>
+    <p><span class="list-key">contact</span></p>
     <div class="list">
       {% for i in site.json.contact %}
-      <br><span class="list-subkey">{{ i | slice: 0 }}</span><span class="list-attr">{{ i | slice: 1 }}</span></br>
+      <p><span class="list-subkey">{{ i | slice: 0 }}</span><span class="list-attr">{{ i | slice: 1 }}</span></p>
       {% endfor %}
     </div>
     {% else %}
-    <br><span class="key">contact</span><span class="attr">{{ site.json.contact }}</span></br>
+    <p><span class="key">contact</span><span class="attr">{{ site.json.contact }}</span></p>
     {% endif %}
     {% endif %}
   </div>
   <div class="block">
     {% if site.json.art %}
     {% assign art = site.json.art | split: "//" | slice: 1 %}
-    <br><span class="key">art</span><span class="attr"><a href="{{ site.json.art }}">{{ art }}</a></span></br>
+    <p><span class="key">art</span><span class="attr"><a href="{{ site.json.art }}">{{ art }}</a></span></p>
     {% endif %}
     {% if site.json.blog %}
     {% assign blog = site.json.blog | split: "//" | slice: 1 %}
-    <br><span class="key">blog</span><span class="attr"><a href="{{ site.json.blog }}">{{ blog }}</a></span></br>
+    <p><span class="key">blog</span><span class="attr"><a href="{{ site.json.blog }}">{{ blog }}</a></span></p>
     {% endif %}
   </div>
   <div class="block">
@@ -73,7 +73,7 @@ layout: default
     <span class="array-key">profiles</span>
     <div class="array">
       {% for i in site.json.profiles %}
-      <br class="array-attr"><a href="{{ i | slice: 1 }}" target="_blank">{{ i | slice: 0 }}</a></br>
+      <p class="array-attr"><a href="{{ i | slice: 1 }}" target="_blank">{{ i | slice: 0 }}</a></p>
       {% endfor %}
     </div>
     {% endif %}
