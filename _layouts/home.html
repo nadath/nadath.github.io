@@ -27,13 +27,13 @@ layout: default
   <div class="block">
     {% if site.json.cv %}
     {% assign cv = site.json.cv | split: "/" | slice: -1 %}
-    <p><span class="key">cv</span><span class="attr"><a href="{{ site.json.cv }}">{{ cv }}</a></span></p>
+    <br><span class="key">cv</span><span class="attr"><a href="{{ site.json.cv }}">{{ cv }}</a></span></br>
     {% endif %}
   </div>
   <div class="block">
     {% if site.json.address %}
     {% if site.json.address.first %}
-    <p><span class="array-key">address</span></p>
+    <br><span class="array-key">address</span></br>
     <div class="array">
       {% for i in site.json.address %}
       <br class="array-attr">{{ i }}</br>
@@ -47,7 +47,7 @@ layout: default
   <div class="block">
     {% if site.json.contact %}
     {% if site.json.contact.first %}
-    <p><span class="list-key">contact</span></p>
+    <br><span class="list-key">contact</span></br>
     <div class="list">
       {% for i in site.json.contact %}
       <br><span class="list-subkey">{{ i | slice: 0 }}</span><span class="list-attr">{{ i | slice: 1 }}</span></br>
@@ -61,7 +61,7 @@ layout: default
   <div class="block">
     {% if site.json.art %}
     {% assign art = site.json.art | split: "//" | slice: 1 %}
-    <p><span class="key">art</span><span class="attr"><a href="{{ site.json.art }}">{{ art }}</a></span></p>
+    <br><span class="key">art</span><span class="attr"><a href="{{ site.json.art }}">{{ art }}</a></span></br>
     {% endif %}
     {% if site.json.blog %}
     {% assign blog = site.json.blog | split: "//" | slice: 1 %}
