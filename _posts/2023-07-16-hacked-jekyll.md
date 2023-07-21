@@ -39,7 +39,7 @@ TLDR; How I built my portfolio/blog using Jekyll.
 
 > So I started some tutorials on [Codecademy](https://www.codecademy.com/learn) and [freeCodeCamp](https://www.freecodecamp.org). They're awesome and free, but I get bored and distracted easily. 
 
-> I think I've got a hang of how to use HTML, CSS, and Javascript in building a website, so that's good enough for a start.
+> I think I've got some idea of HTML, CSS, and Javascript, so that's good enough for a start.
 
 > Got to focus on Blender now.
 
