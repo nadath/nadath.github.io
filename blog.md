@@ -3,7 +3,7 @@ layout: default
 title: blog
 ---
 
-{% include element.html draggable = "{% include dropdown.html %}" %}
+{% include element.html draggable = {% include dropdown.html %} %}
 
 <main>
   <div class="block">
