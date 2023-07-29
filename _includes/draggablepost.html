@@ -60,7 +60,8 @@
     function onMouseUp(e) {
         e.preventDefault();
         if (the_moving_div == "") return;
-        document.getElementById(the_moving_div).style.border = "none";             // hide the border again
+        //document.getElementById(the_moving_div).style.border = "none";             // hide the border again
+        e.target.style.border = "none";
         the_moving_div = "";
     }
     
