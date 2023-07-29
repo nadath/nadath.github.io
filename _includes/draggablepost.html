@@ -7,7 +7,7 @@
         width: auto;
         text-align: center;
         line-height: 60px;
-        background-color: var(--oc-gray-8);
+        border: 1px solid var(--oc-gray-8);
       }
   </style>
 </head>
@@ -60,7 +60,7 @@
     function onMouseUp(e) {
         e.preventDefault();
         if (the_moving_div == "") return;
-        document.getElementById(the_moving_div).style.backgroundColor = "var(--oc-gray-8)";             // hide the border again
+        document.getElementById(the_moving_div).style.backgroundColor = "none";             // hide the border again
         the_moving_div = "";
     }
     
