@@ -15,11 +15,11 @@
       {% endfor %}
     </div>
   </div>
-  
+
   <script>
     //Make the DIV element draggable:
     const drag = document.getElementById("element")
-    var draggableElements = drag.getElementsByClassName("image-gallery");
+    var draggableElements = drag.getElementsByClassName("box");
 
     for(var i = 0; i < draggableElements.length; i++){
         dragElement(draggableElements[i]);
