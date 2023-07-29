@@ -21,10 +21,10 @@ I'm not thinking of running away again. This career pivot may not happen soon, b
 
 I was itching to create draggable posts on my blog page, like on Anon. I took hours to come up with this one (apparently with only marginal experience in editing Jekyll and Tumblr themes, this is what you get).
 
-The saviour yet again: [an answer on Stackoverfow](https://stackoverflow.com/a/63857834/22305530) to the same question.
+The saviour yet again: [an answer on Stackoverfow](https://stackoverflow.com/a/63857834/22305530) to the same question I had.
 
 I customized the code to make the posts as the draggable elements, scatter them at random, and match the hacker theme I already had going.
 
-It's not done yet, but at least I got the itch out of my head.
+It's not completely finished yet, but at least I got the itch out of my head.
 
 Yeay.
