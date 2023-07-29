@@ -1,5 +1,4 @@
 .image-gallery {
-  position: relative;
   padding: 4px;
 }
 
@@ -9,10 +8,7 @@
 }
 
 .img-gallery {
-  width: 100%;
+  position: relative;
+  width: auto;
   height: 200px;
-  transition: width 0.5s ease-in-out;
-  &:hover {
-  width: 110%;
-  }
 }
