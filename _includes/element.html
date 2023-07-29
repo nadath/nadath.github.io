@@ -1,17 +1,17 @@
 <body>
-  <div id="element">
-    <div id="elementheader">{% include dropdown.html %}</div>
+  <div class="draggable">
+    <div class="draggableheader">{% include dropdown.html %}</div>
   </div>
 
-  <div id="element">
-    <div id="elementheader">{% include image.html folder="img" %}</div>
+  <div id="draggable">
+    <div id="draggableheader">{% include image.html folder="img" %}</div>
   </div>
 
   <script>
     //Make the DIV element draggagle:
     //dragElement(document.getElementById("element"));
 
-    var draggableElements = document.getElementById("element");
+    var draggableElements = document.getElementsByClassName("draggable");
 
     for(var i = 0; i < draggableElements.length; i++){
       dragElement(draggableElements[i]);

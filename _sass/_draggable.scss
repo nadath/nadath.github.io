@@ -1,0 +1,15 @@
+.draggable {
+  position: absolute;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  }
+
+.draggableheader {
+  cursor: grab;
+  background-color: var(--oc-gray-9);
+  z-index: 3;
+  float: right;
+}
