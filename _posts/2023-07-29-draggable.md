@@ -11,7 +11,7 @@ I was hit by the realest reality, through an interview for a developer job, abou
 
 My creative tap was blocked.
 
-For a whole week.
+For two whole weeks.
 
 I continued going to work as usual. It was not so bad after all. All those doubts had gone and I feel this is where I belong, for the moment. 
 
