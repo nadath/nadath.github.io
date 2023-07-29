@@ -11,7 +11,7 @@ I successfully installed Jekyll, with some hiccup in installing ruby. I had give
 
 [Stackoverflow](https://stackoverflow.com) was the saviour, as always.
 
-With the help of [GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) and [Jekyll](https://jekyllrb.com/docs/installation/), I managed to create a site and publish it on my GitHub Pages.
+Following the steps on [GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) and [Jekyll](https://jekyllrb.com/docs/installation/), I managed to create a site and publish it on my GitHub Pages.
 
 But once I tried changing the theme using remote_theme and plugins, the changes wouldn't appear on my site. 
 
@@ -23,7 +23,7 @@ In the end, I forked one of the themes from [Jamstack Themes](https://jamstackth
 
 I liked this coder-hacker theme called Hacked Jekyll and used it as a homepage. I added a photo gallery, a draggable navigation bar (idea inspired by draggable posts on [Anon](http://anon.com.hk)), and a blog page. 
 
-The outcome: <https://github.com/nadath/hacking-jekyll>, thanks to the following references.
+Thanks to the following references.
 1. [A simple image gallery in Jekyll without plugins](https://dmnfarrell.github.io/software/jekyll-galleries)
 2. [Create a Draggable HTML Element](https://www.w3schools.com/howto/howto_js_draggable.asp)
 
