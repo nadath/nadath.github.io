@@ -1,15 +1,23 @@
 <body>
-  <div id="element">{% include image.html folder="img" %}</div>
+  <div id="imgelement">
+    <div id="imgelementheader">"{{ filename }}"</div>
+    {% include image.html folder="img" %}
+  </div>
 
   <script>
     //Make the DIV element draggagle:
-    dragElement(document.getElementById("element"));
+    dragElement(document.getElementById("imgelement"));
 
     function dragElement(elmnt) {
       var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-      // move the DIV from anywhere inside the DIV:
-      elmnt.onmousedown = dragMouseDown;
-      
+      if (document.getElementById(elmnt.id + "header")) {
+        /* if present, the header is where you move the DIV from:*/
+        document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+      } else {
+        /* otherwise, move the DIV from anywhere inside the DIV:*/
+        elmnt.onmousedown = dragMouseDown;
+      }
+
       function dragMouseDown(e) {
         e = e || window.event;
         e.preventDefault();
