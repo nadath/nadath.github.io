@@ -27,4 +27,4 @@ I customized the code to make the posts as the draggable elements, scatter them 
 
 It's not completely finished yet, but at least I got the itch out of my head.
 
-Thank God for Stackoverflow.
+Thank God for Stackoverflow and [w3schools](https://www.w3schools.com/).
