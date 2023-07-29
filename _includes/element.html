@@ -3,8 +3,8 @@
     <div class="draggableheader">{% include dropdown.html %}</div>
   </div>
 
-  <div id="draggable">
-    <div id="draggableheader">{% include image.html folder="img" %}</div>
+  <div class="draggable">
+    <div class="draggableheader">{% include image.html folder="img" %}</div>
   </div>
 
   <script>
@@ -19,9 +19,9 @@
 
     function dragElement(elmnt) {
       var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-      if (document.getElementById(elmnt.id + "header")) {
+      if (document.getElementsByClassName("draggableheader"[0])) {
         /* if present, the header is where you move the DIV from:*/
-        document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+        document.getElementsByClassName("draggableheader"[0]).onmousedown = dragMouseDown;
       } else {
         /* otherwise, move the DIV from anywhere inside the DIV:*/
         elmnt.onmousedown = dragMouseDown;
