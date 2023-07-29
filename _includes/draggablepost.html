@@ -24,6 +24,7 @@
     
     for (let i = 0; i < divs.length; i++) {
       divs[i].id = "div" + [i];
+      divs[i].style.top = [i];
     }
 
     for (div of divs) div.onmousedown = onMouseDown;
