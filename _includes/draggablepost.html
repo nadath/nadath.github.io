@@ -4,10 +4,11 @@
         position: absolute;
         top: 0;
         height: 100px;
-        width: auto;
+        width: 100px;
         text-align: center;
         line-height: 60px;
         background-color: var(--oc-gray-8);
+        cursor: grab;
       }
   </style>
 </head>
@@ -44,7 +45,7 @@
         the_moving_div            = e.target.id;      // remember which div has been selected 
         the_last_mouse_position.x = e.clientX;        // remember where the mouse was when it was clicked
         the_last_mouse_position.y = e.clientY;
-        e.target.style.border = "2px solid black";     // highlight the border of the div
+        e.target.style.border = "thin dashed var(--oc-gray-2)";     // highlight the border of the div
     
         var lis = document.getElementsByTagName("li");
         e.target.style.zIndex = lis.length;          // put this div  on top
