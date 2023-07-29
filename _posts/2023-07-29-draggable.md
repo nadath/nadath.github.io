@@ -7,7 +7,7 @@ TLDR; I added more draggable stuff.
 
 ### Questioning myself yet again
 
-I was hit by reality, through an interview for a developer job, of the level of my skill. My dreams are infinitely higher than what I could achieve with my current level. I always do that, unrealistic thinking, and disappoint myself.
+I was hit by the realest reality, through an interview for a developer job, about the level of my skill. My dreams are infinitely higher than what I could achieve with my current level. I always do that, unrealistic thinking, and disappoint myself.
 
 My creative tap was blocked.
 
