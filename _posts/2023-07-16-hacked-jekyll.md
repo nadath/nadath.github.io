@@ -23,7 +23,7 @@ In the end, I forked one of the themes from [Jamstack Themes](https://jamstackth
 
 I liked this coder-hacker theme called Hacked Jekyll and used it as a homepage. I added a photo gallery, a draggable navigation bar (idea inspired by draggable posts on [Anon](http://anon.com.hk)), and a blog page. 
 
-Thanks to the following references.
+Many thanks to these references:
 1. [A simple image gallery in Jekyll without plugins](https://dmnfarrell.github.io/software/jekyll-galleries)
 2. [Create a Draggable HTML Element](https://www.w3schools.com/howto/howto_js_draggable.asp)
 
