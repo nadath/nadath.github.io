@@ -26,6 +26,7 @@
 
     for (let i = 0; i < divs.length; i++) {
       divs[i].id = "div" + [i];
+      divs[i].style.zIndex = [i];
     }
 
     for (div of divs) div.onmousedown = onMouseDown;
