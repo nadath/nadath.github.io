@@ -3,8 +3,8 @@
       li {
         position: absolute;
         top: 0;
-        height: auto;
-        width: 400px;
+        height: 100px;;
+        width: auto;
         text-align: center;
         line-height: 60px;
         background-color: var(--oc-gray-8);
@@ -44,11 +44,12 @@
         the_moving_div            = e.target.id;      // remember which div has been selected 
         the_last_mouse_position.x = e.clientX;        // remember where the mouse was when it was clicked
         the_last_mouse_position.y = e.clientY;
-        e.target.style.border = "thin dashed var(--oc-green-3)";     // highlight the border of the div
-    
+        
+        lis.style.border = "thin dashed var(--oc-green-3)";     // highlight the border of the div
+
         var lis = document.getElementsByTagName("li");
         e.target.style.zIndex = lis.length;          // put this div  on top
-        var i = 1; for (li of lis) if (li.id != the_moving_div) div.style.zIndex = i++;   // put all other divs behind the selected one
+        var i = 1; for (li of lis) if (li.id != the_moving_div) lis.style.zIndex = i++;   // put all other divs behind the selected one
     }
     
     function onMouseMove(e) {
