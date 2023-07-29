@@ -3,4 +3,4 @@ layout: default
 title: art
 ---
 
-{% include element.html %}
+{% include draggableimg.html folder="img" %}
