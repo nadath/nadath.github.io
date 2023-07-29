@@ -2,7 +2,6 @@
   <style>
       div {
         position: absolute;
-        top: 0;
         height: 200px;
         width: 250px;
         border: 1px solid var(--oc-gray-6);
@@ -21,10 +20,12 @@
   
   <script>
     divs = document.getElementsByTagName("div");
-    
+
+    const getRandom = (max) => Math.floor(Math.random()*(max));
+
     for (let i = 0; i < divs.length; i++) {
       divs[i].id = "div" + [i];
-      divs[i].style.top = [i];
+      divs[i].style.top = getRandom([300]);
     }
 
     for (div of divs) div.onmousedown = onMouseDown;
