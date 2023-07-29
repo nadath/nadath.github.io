@@ -41,7 +41,8 @@
         the_last_mouse_position.x = e.clientX;        // remember where the mouse was when it was clicked
         the_last_mouse_position.y = e.clientY;
         document.getElementById(the_moving_div).style.backgroundColor = "var(--oc-gray-9)";     // highlight the border of the div
-        
+        document.getElementsByTagName("div").style.cursor = "pointer";
+
         var divs = document.getElementsByTagName("div");
         e.target.style.zIndex = divs.length;          // put this div  on top
         var i = 1; for (div of divs) if (div.id != the_moving_div) divs.style.zIndex = i++;   // put all other divs behind the selected one
