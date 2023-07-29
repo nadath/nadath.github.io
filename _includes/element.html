@@ -3,9 +3,19 @@
     <div id="elementheader">{% include dropdown.html %}</div>
   </div>
 
+  <div id="element">
+    <div id="elementheader">{% include image.html folder="img" %}</div>
+  </div>
+
   <script>
     //Make the DIV element draggagle:
-    dragElement(document.getElementById("element"));
+    //dragElement(document.getElementById("element"));
+
+    var draggableElements = document.getElementById("element");
+
+    for(var i = 0; i < draggableElements.length; i++){
+      dragElement(draggableElements[i]);
+    }
 
     function dragElement(elmnt) {
       var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
