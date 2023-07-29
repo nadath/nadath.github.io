@@ -15,7 +15,7 @@ For a whole week.
 
 I continued going to work as usual. It was not so bad after all. All those doubts had gone and I feel this is where I belong, for the moment. 
 
-I'm not thinking of running away again. But this coding thing, it's my weekend getaway and I'll need it to keep me sane.
+I'm not thinking of running away again. This career pivot may not happen soon, but I'm going through with the plan, it's my weekend getaway and I'll need it to keep me sane.
 
 ### To the main thing
 
