@@ -14,9 +14,9 @@
 
 <body>
   <div class="block">
-    <ul>
+    <ul id="postlist">
       {% for post in site.posts %}
-        <li>
+        <li id="li">
           <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
           {{ post.excerpt }}
         </li>
@@ -25,6 +25,12 @@
   </div>
   
   <script>
+    var ul = document.getElementById("postlist");
+    var items = ul.getElementsByTagName("li");
+    for (var i = 0; i < items.length; ++i) {
+      li.id = "id" + i;
+    }
+
     lis = document.getElementsByTagName("li");
     for (li of lis) li.onmousedown = onMouseDown;
     
