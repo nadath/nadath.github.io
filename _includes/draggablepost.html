@@ -40,12 +40,11 @@
         the_moving_div            = e.target.id;      // remember which div has been selected 
         the_last_mouse_position.x = e.clientX;        // remember where the mouse was when it was clicked
         the_last_mouse_position.y = e.clientY;
-        var d = document.getElementById(the_moving_div);
-        d.style.backgroundColor = "var(--oc-gray-8)";     // highlight the border of the div
-        d.style.zIndex = divs.length;          // put this div  on top
-        
+        document.getElementById(the_moving_div).style.backgroundColor = "var(--oc-gray-8)";     // highlight the border of the div
+                
         var divs = document.getElementsByTagName("div");
-        var i = 1; for (div of divs) if (div.id != the_moving_div) divs.style.zIndex = i++;   // put all other divs behind the selected one
+        e.target.style.zIndex = divs.length;          // put this div  on top
+        var i = 1; for (div of divs) if (div.id != the_moving_div) div.style.zIndex = i++;   // put all other divs behind the selected one
     }
     
     function onMouseMove(e) {
@@ -56,7 +55,6 @@
         d.style.top  = d.offsetTop  + e.clientY - the_last_mouse_position.y + "px";
         the_last_mouse_position.x = e.clientX;                                          // remember where the mouse is now
         the_last_mouse_position.y = e.clientY;
-        d.style.cursor = "grab";
     }
     
     function onMouseUp(e) {
