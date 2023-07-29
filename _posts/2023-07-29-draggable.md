@@ -19,7 +19,7 @@ I'm not thinking of running away again. But this developer thing, it's my weeken
 
 ### To the main thing
 
-I was itching to create the draggable posts on my blog page, like on Anon. Took hours to come up with this one. Apprently with no strong foundation in HTML/CSS/Javascript, and only marginal experience in editing Tumblr themes, this is what you get.
+I was itching to create the draggable posts on my blog page, like on Anon. Took hours to come up with this one. Apprently with only marginal experience in editing Jekyll and Tumblr themes, this is what you get.
 
 The saviour yet again: [an answer on Stackoverfow](https://stackoverflow.com/a/63857834/22305530) to the same question.
 
