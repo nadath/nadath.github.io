@@ -23,7 +23,7 @@
 
     for (let i = 0; i < divs.length; i++) {
       divs[i].id = "div" + [i];
-      divs[i].style.zIndex = [i];
+      divs[i].style.zIndex = divs.length-[i];
     }
 
     for (div of divs) div.style.top = Math.random()*400 +"px";
