@@ -21,11 +21,11 @@
   <script>
     divs = document.getElementsByTagName("div");
 
-    const getRandom = (max) => Math.floor(Math.random()*(max));
+    var getRandom = (max) => Math.floor(Math.random()*(max));
+    for (div of divs) div.style.top = getRandom([300]);
 
     for (let i = 0; i < divs.length; i++) {
       divs[i].id = "div" + [i];
-      divs[i].style.top = getRandom([300]);
     }
 
     for (div of divs) div.onmousedown = onMouseDown;
