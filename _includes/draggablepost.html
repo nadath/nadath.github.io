@@ -1,27 +1,32 @@
 <head>
   <style>
-      div {
+      li {
         position: absolute;
         top: 0;
-        height: 60px;
-        width: 100px;
+        height: 100px;
+        width: auto;
         text-align: center;
         line-height: 60px;
-        background-color: var(--oc-gray-4);
-        border: var(--oc-green-4);
+        background-color: var(--oc-gray-8);
       }
   </style>
 </head>
 
 <body>
-  <div id="div1">1</div>
-  <div id="div2">2</div>
-  <div id="div3">3</div>
-  <div id="div4">4</div>
+  <div class="block">
+    <ul>
+      {% for post in site.posts %}
+        <li id="li">
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          {{ post.excerpt }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
   
   <script>
-    divs = document.getElementsByTagName("div");
-    for (div of divs) div.onmousedown = onMouseDown;
+    lis = document.getElementsByTagName("li");
+    for (li of lis) li.onmousedown = onMouseDown;
     
     document.onmousemove = onMouseMove;
     document.onmouseup   = onMouseUp;
@@ -34,11 +39,11 @@
         the_moving_div            = e.target.id;      // remember which div has been selected 
         the_last_mouse_position.x = e.clientX;        // remember where the mouse was when it was clicked
         the_last_mouse_position.y = e.clientY;
-        e.target.style.border = "2px var(--oc-green-6)";     // highlight the border of the div
+        e.target.style.border = "2px solid black";     // highlight the border of the div
     
-        var divs = document.getElementsByTagName("div");
-        e.target.style.zIndex = divs.length;          // put this div  on top
-        var i = 1; for (div of divs) if (div.id != the_moving_div) div.style.zIndex = i++;   // put all other divs behind the selected one
+        var lis = document.getElementsByTagName("li");
+        e.target.style.zIndex = lis.length;          // put this div  on top
+        var i = 1; for (li of lis) if (li.id != the_moving_div) div.style.zIndex = i++;   // put all other divs behind the selected one
     }
     
     function onMouseMove(e) {
