@@ -21,13 +21,12 @@
   <script>
     divs = document.getElementsByTagName("div");
 
+    for (div of divs) div.style.top = Math.random()*window.innerHeight +"px";
+    for (div of divs) div.style.left = Math.random()*window.innerWidth +"px";
+
     for (let i = 0; i < divs.length; i++) {
       divs[i].id = "div" + [i];
-      divs[i].style.zIndex = divs.length-[i];
     }
-
-    for (div of divs) div.style.top = Math.random()*400 +"px";
-    for (div of divs) div.style.left = Math.random()*700 +"px";
 
     for (div of divs) div.onmousedown = onMouseDown;
 
