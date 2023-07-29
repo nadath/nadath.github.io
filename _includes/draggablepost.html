@@ -45,11 +45,10 @@
         the_last_mouse_position.x = e.clientX;        // remember where the mouse was when it was clicked
         the_last_mouse_position.y = e.clientY;
         
-        lis.style.border = "thin dashed var(--oc-green-3)";     // highlight the border of the div
-
         var lis = document.getElementsByTagName("li");
         e.target.style.zIndex = lis.length;          // put this div  on top
         var i = 1; for (li of lis) if (li.id != the_moving_div) lis.style.zIndex = i++;   // put all other divs behind the selected one
+        var i = 1; for (li of lis) if (li.id = the_moving_div) lis.style.border = "thin dashed var(--oc-green-3)";     // highlight the border of the div
     }
     
     function onMouseMove(e) {
