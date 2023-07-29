@@ -1,5 +1,5 @@
 <body>
-  <div id = "element">
+  <div id="draggable">
     <div class ="image-gallery">
       {% assign sorted = site.static_files | sort: 'date' | reverse %}
       {% for file in sorted %}
@@ -18,11 +18,11 @@
 
   <script>
     //Make the DIV element draggable:
-    const drag = document.getElementById("element")
-    var draggableElements = drag.getElementsByClassName("img-gallery");
+    const element = document.getElementById("draggable")
+    var draggableElements = element.getElementsByClassName("img-gallery");
 
     for(var i = 0; i < draggableElements.length; i++){
-        dragElement(draggableElements[i]);
+      dragElement(draggableElements[i]);
     }
 
     function dragElement(elmnt) {
