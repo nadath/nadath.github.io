@@ -37,7 +37,7 @@
   {% for post in posts %}
     <div>
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      {{ post.content }}
+      {{ post.content | truncatewords: 60}}
     </div>
   {% endfor %}
   
