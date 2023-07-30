@@ -50,11 +50,11 @@
       divs[i].id = "div" + [i];
     }
 
-    for (div of divs) div.onmousedown = onMouseDown;
+    //for (div of divs) div.onmousedown = onMouseDown;
 
     h1s = document.getElementsByTagName("h1");
     for (h of h1s) h1.onmousedown = onMouseDown;
-    
+
     document.onmousemove = onMouseMove;
     document.onmouseup   = onMouseUp;
 
