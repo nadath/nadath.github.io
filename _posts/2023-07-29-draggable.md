@@ -5,7 +5,7 @@ author: ath
 
 TLDR; I added more draggable stuff.
 
-### Questioning myself yet again
+## Questioning myself yet again
 
 I was hit by the realest reality, through an interview for a developer job, about the level of my skill. My dreams are infinitely higher than what I could achieve with my current level. I always do that, unrealistic thinking, and disappoint myself.
 
@@ -17,7 +17,7 @@ I continued going to work as usual. It was not so bad after all. All those doubt
 
 I'm not thinking of running away again. This career pivot may not happen soon, but I'm going through with the plan, it's my weekend getaway and I'll need it to keep me sane.
 
-### To the main thing
+## To the main thing
 
 I was itching to create draggable posts on my blog page, like on Anon. I took hours to come up with this one (apparently with only marginal experience in editing Jekyll and Tumblr themes, this is what you get).
 
