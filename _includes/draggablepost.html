@@ -9,10 +9,12 @@
       background-color: var(--oc-gray-8);
     }
 
-    p{
+    h1{
       background-color: var(--oc-green-4);
       color: var(--oc-black);
       text-align: center;
+      margin: 0;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -20,7 +22,7 @@
 <body>
   {% for post in site.posts %}
     <div>
-      <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
       {{ post.excerpt }}
     </div>
   {% endfor %}
