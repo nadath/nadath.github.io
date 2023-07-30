@@ -14,8 +14,10 @@
 <body>
   {% for post in site.posts %}
     <div>
+      <div class="header">
         <a href="{{ post.url }}">{{ post.title }}</a>
-        {{ post.excerpt }}
+      </div>
+      {{ post.excerpt }}
     </div>
   {% endfor %}
   
