@@ -10,7 +10,7 @@ TLDR; I added more draggable stuff. I was itching to create draggable posts on m
 I was hit by the realest reality, through an interview for a developer job, about the level of my skill. My dreams are infinitely higher than what I could achieve with my current level. I always do that, unrealistic thinking, and disappoint myself.
 
 My creative tap was blocked.
-<!--more-->
+
 For two whole weeks.
 
 I continued going to work as usual. It was not so bad after all. All those doubts had gone and I feel this is where I belong, for the moment. 

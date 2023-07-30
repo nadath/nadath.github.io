@@ -5,7 +5,7 @@ author: ath
 
 TLDR; I built a portfolio/blog using Jekyll.
 
-## The problem starts
+### The problem starts
 
 I successfully installed Jekyll, with some hiccup in installing ruby. I had given up on Jekyll once because chruby wouldn't work on my Mac. This time I used rbnev instead and it works.
 
