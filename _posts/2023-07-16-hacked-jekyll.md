@@ -5,7 +5,7 @@ author: ath
 
 TLDR; How I built my portfolio/blog using Jekyll.
 
-## The problem starts
+### The problem starts
 
 I successfully installed Jekyll, with some hiccup in installing ruby. I had given up on Jekyll once because chruby wouldn't work on my Mac. This time I used rbnev instead and it works.  
 
@@ -19,7 +19,7 @@ I couldn't figure it out.
 
 In the end, I forked one of the themes from [Jamstack Themes](https://jamstackthemes.dev/ssg/jekyll/) (they have a few cool ones) and customized from there.
 
-## Hacked Jekyll
+### Hacked Jekyll
 
 I liked this coder-hacker theme called Hacked Jekyll and used it as a homepage. I added a photo gallery, a draggable navigation bar (idea inspired by draggable posts on [Anon](http://anon.com.hk)), and a blog page. 
 
