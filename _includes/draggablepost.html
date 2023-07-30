@@ -1,6 +1,6 @@
 <head>
   <style>
-    div {
+    .window {
       position: absolute;
       height: 250px;
       width: 300px;
@@ -13,11 +13,11 @@
       font-size: 0.8em;
     }
 
-    h3{
+    h3 {
       display: none;
     }
 
-    h1{
+    div {
       background-color: var(--oc-green-4);
       color: var(--oc-black);
       text-align: center;
@@ -33,11 +33,11 @@
 </head>
 
 <body>
-  {% assign posts = site.posts | sort: page.date | reverse %}
+  {% assign posts = site.posts | sort: post.date | reverse %}
   {% for post in posts %}
     <div>
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      {{ post.content | truncatewords: 100, "--" }}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p class=window>{{ post.content | truncatewords: 100, "--" }}</p>
     </div>
   {% endfor %}
   
