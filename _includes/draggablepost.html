@@ -40,7 +40,7 @@
     <div>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <section>
-        <p>{{ post.content | truncatewords: 100, "--"}}</p>
+        <p>{{ post.excerpts}}</p>
       </section>
     </div>
   {% endfor %}
