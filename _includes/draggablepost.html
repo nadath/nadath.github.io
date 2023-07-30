@@ -8,6 +8,14 @@
       border: 1px solid var(--oc-gray-7);
     }
 
+    .tinywindow {
+      height: 250px;
+      width: 300px;
+      border: 1px solid var(--oc-gray-7);
+      border-radius: 5px;
+      background-color: var(--oc-gray-9);
+    }
+
     h1 {
       background-color: var(--oc-green-4);
       color: var(--oc-black);
@@ -18,11 +26,6 @@
     }
 
     p {
-      height: 250px;
-      width: 300px;
-      border: 1px solid var(--oc-gray-7);
-      border-radius: 5px;
-      background-color: var(--oc-gray-9);
       overflow: hidden;
       white-space: nowrap;
       text-overflow: clip;
@@ -39,9 +42,9 @@
 <body>
   {% assign posts = site.posts | sort: post.date | reverse %}
   {% for post in posts %}
-    <div>
+    <div class="tinywindow">
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <p> {{ post.content }} </p>
+      <p>{{ post.content }}</p>
     </div>
   {% endfor %}
   
