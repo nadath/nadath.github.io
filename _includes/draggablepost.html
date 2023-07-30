@@ -9,14 +9,10 @@
       background-color: var(--oc-gray-8);
     }
 
-    .header{
-      text-align: center;
+    p{
       background-color: var(--oc-green-4);
       color: var(--oc-black);
-      font-size: 12px;
-      width: 250px;
-      height: 20px;
-      border-radius: 5px;
+      text-align: center;
     }
   </style>
 </head>
@@ -24,7 +20,7 @@
 <body>
   {% for post in site.posts %}
     <div>
-      <h4 style="text-align:center"><span class="header"><a href="{{ post.url }}">{{ post.title }}</a></span></h4>
+      <p><a href="{{ post.url }}">{{ post.title }}</a></p>
       {{ post.excerpt }}
     </div>
   {% endfor %}
