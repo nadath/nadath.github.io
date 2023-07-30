@@ -33,7 +33,7 @@
 </head>
 
 <body>
-  {% assign posts = site.posts | sort: post.date | reverse %}
+  {% assign posts = site.posts | sort: page.date | reverse %}
   {% for post in posts %}
     <div>
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
