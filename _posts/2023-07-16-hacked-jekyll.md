@@ -8,7 +8,7 @@ TLDR; How I built my portfolio/blog using Jekyll.
 ### The problem starts
 
 I successfully installed Jekyll, with some hiccup in installing ruby. I had given up on Jekyll once because chruby wouldn't work on my Mac. This time I used rbnev instead and it works.  
-
+<!--more-->
 [Stackoverflow](https://stackoverflow.com) was the saviour, as always.
 
 Following the steps on [GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) and [Jekyll](https://jekyllrb.com/docs/installation/), I managed to create a site and publish it on my GitHub Pages.
