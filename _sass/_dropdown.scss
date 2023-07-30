@@ -1,7 +1,7 @@
 .dropbtn {
   background-color: var(--oc-gray-9);
   color: var(--oc-green-4);
-  //padding: 16px;
+  padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -30,6 +30,6 @@
   display: block;
 }
 
-.dropdown a:hover {background-color: var(--oc-gray-8)}
+.dropdown a:hover {border: 1px dotted var(--oc-green-4)}
 
 .show {display: block;}
