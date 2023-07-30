@@ -42,20 +42,20 @@
 <body>
   {% assign posts = site.posts | sort: post.date | reverse %}
   {% for post in posts %}
-    <div>
+    <div id="divheader">
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <div class="window">{{ post.content }}</div>
+      <div id="divwindow">{{ post.content }}</div>
     </div>
   {% endfor %}
   
   <script>
     divs = document.getElementsByTagName("div");
 
-    for (div of divs) div.style.top = Math.random()*(window.innerHeight-200) +"px";
-    for (div of divs) div.style.left = Math.random()*(window.innerWidth-250) +"px";
+    for (div of divs) if (div.id = divheader) div.style.top = Math.random()*(window.innerHeight-200) +"px";
+    for (div of divs) if (div.id = divheader) div.style.left = Math.random()*(window.innerWidth-250) +"px";
 
     for (let i = 0; i < divs.length; i++) {
-      divs[i].id = "div" + [i];
+      divs[i].id = divs[i].id + [i];
     }
 
     for (div of divs) div.onmousedown = onMouseDown;
