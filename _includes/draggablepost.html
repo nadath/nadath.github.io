@@ -46,8 +46,8 @@
   {% for post in site.posts %}
     <div class="divheader">
       <a href="{{ post.url }}">{{ post.title }}</a>
+      <p class="divwindow">{{ post.content }}</p>
     </div>
-    <p class="divwindow">{{ post.content }}</p>
   {% endfor %}
   
   <script>
