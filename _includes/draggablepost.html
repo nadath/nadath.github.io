@@ -28,8 +28,8 @@
   <script>
     divs = document.getElementsByTagName("div");
 
-    //for (div of divs) if (div.id = divheader) div.style.top = Math.random()*(window.innerHeight-200) +"px";
-    //for (div of divs) if (div.id = divheader) div.style.left = Math.random()*(window.innerWidth-250) +"px";
+    for (div of divs) if (div.id = "divheader") div.style.top = Math.random()*(window.innerHeight-200) +"px";
+    for (div of divs) if (div.id = "divheader") div.style.left = Math.random()*(window.innerWidth-250) +"px";
 
     for (let i = 0; i < divs.length; i++) {
       divs[i].id = divs[i].id + [i];
