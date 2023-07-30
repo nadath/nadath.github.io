@@ -41,7 +41,7 @@
   {% endfor %}
   
   <script>
-    divs = document.getElementsByTagName("h1");
+    divs = document.getElementsByTagName("div");
 
     for (div of divs) div.style.top = Math.random()*(window.innerHeight-200) +"px";
     for (div of divs) div.style.left = Math.random()*(window.innerWidth-250) +"px";
@@ -65,7 +65,7 @@
         the_last_mouse_position.y = e.clientY;
         document.getElementById(the_moving_div).style.border = "1px solid var(--oc-gray-6)";     // highlight the border of the div
                 
-        var divs = document.getElementsByTagName("h1");
+        var divs = document.getElementsByTagName("div");
         e.target.style.zIndex = divs.length;          // put this div  on top
         var i = 1; for (div of divs) if (div.id != the_moving_div) div.style.zIndex = i++;   // put all other divs behind the selected one
     }
