@@ -33,8 +33,7 @@
 </head>
 
 <body>
-  {% assign posts = site.posts | sort" 'last_updated' | reverse %}
-  {% for post in posts %}
+  {% for post in site.posts %}
     <div>
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
       {{ post.content }}
