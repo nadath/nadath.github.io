@@ -34,10 +34,11 @@
 </head>
 
 <body>
-  {% for post in site.posts %}
+  {% assign posts = site.posts | sort: post.date | reverse %}
+  {% for post in posts %}
     <div>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <p class="window">{{ post.content | truncatewords: 100, "--" }}</p>
+      <div class="window">{{ post.content }}</div>
     </div>
   {% endfor %}
   
