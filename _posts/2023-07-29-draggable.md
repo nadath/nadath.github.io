@@ -3,7 +3,7 @@ layout: post
 author: ath
 ---
 
-TLDR; I added more draggable stuff.
+TLDR; I added more draggable stuff. I was itching to create draggable posts on my blog page, like on Anon. I took hours to come up with this one (apparently with only marginal experience in editing Jekyll and Tumblr themes, this is what you get).
 
 ### Questioning myself yet again
 
@@ -19,12 +19,12 @@ I'm not thinking of running away again. This career pivot may not happen soon, b
 
 ### To the main thing
 
-I was itching to create draggable posts on my blog page, like on Anon. I took hours to come up with this one (apparently with only marginal experience in editing Jekyll and Tumblr themes, this is what you get).
+Thankfully today, my creative tap flows. What I did first was to modify the code for draggable navbar to make multiple elements draggable. It didn't work.
 
-The saviour yet again: [an answer on Stackoverfow](https://stackoverflow.com/a/63857834/22305530) to the same question I had.
+Stackoverflow to the rescue. I found an [answer](https://stackoverflow.com/a/63857834/22305530) to the same question I had. Apparently, the method I used for the nav bar (getElementById) only works for a single element. For multiple elements, I needed to use getElementsByTagName.
 
-I customized the code to make the posts as the draggable elements, scatter them at random, and match the hacker theme I already had going.
+I customized the code to make site posts as the draggable elements, scatter them at random, and match the hacker theme I already had going.
 
 It's not completely finished yet, but at least I got the itch out of my head.
 
-Thank God for Stackoverflow and [w3schools](https://www.w3schools.com/).
+Thank God now I can sleep.

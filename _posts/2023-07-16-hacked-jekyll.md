@@ -3,13 +3,11 @@ layout: post
 author: ath
 ---
 
-TLDR; How I built my portfolio/blog using Jekyll.
+TLDR; I built a portfolio/blog using Jekyll.
 
-### The problem starts
+## The problem starts
 
-I successfully installed Jekyll, with some hiccup in installing ruby. I had given up on Jekyll once because chruby wouldn't work on my Mac. This time I used rbnev instead and it works.  
-<!--more-->
-[Stackoverflow](https://stackoverflow.com) was the saviour, as always.
+I successfully installed Jekyll, with some hiccup in installing ruby. I had given up on Jekyll once because chruby wouldn't work on my Mac. This time I used rbnev instead and it works.
 
 Following the steps on [GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) and [Jekyll](https://jekyllrb.com/docs/installation/), I managed to create a site and publish it on my GitHub Pages.
 
@@ -23,7 +21,7 @@ In the end, I forked one of the themes from [Jamstack Themes](https://jamstackth
 
 I liked this coder-hacker theme called Hacked Jekyll and used it as a homepage. I added a photo gallery, a draggable navigation bar (idea inspired by draggable posts on [Anon](http://anon.com.hk)), and a blog page. 
 
-Many thanks to these references:
+Big thanks to these references:
 1. [A simple image gallery in Jekyll without plugins](https://dmnfarrell.github.io/software/jekyll-galleries)
 2. [Create a Draggable HTML Element](https://www.w3schools.com/howto/howto_js_draggable.asp)
 

@@ -53,5 +53,3 @@ imagesurl: "/assets/img/"
 thumbsurl: "/assets/thumbs/"
 
 permalink: /:title/
-
-excerpt_separator: <!--more-->
