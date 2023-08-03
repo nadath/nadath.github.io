@@ -3,7 +3,7 @@
     div {
       position: absolute;
       width: 300px;
-      border-radius: 3px;
+      border-radius: 2px;
       border: 1px solid var(--oc-gray-9);
       background-color: var(--oc-green-4);
       color: var(--oc-black);
@@ -17,6 +17,8 @@
       height: auto;
       width: 300px;
       padding-bottom: 100px;
+      border-bottom-right-radius: 1px;
+      border-bottom-left-radius: 1px;
       background-color: var(--oc-gray-9);
       color: var(--oc-green-4);
       overflow: hidden;
@@ -66,7 +68,7 @@
         the_moving_div            = e.target.id;      // remember which div has been selected 
         the_last_mouse_position.x = e.clientX;        // remember where the mouse was when it was clicked
         the_last_mouse_position.y = e.clientY;
-        document.getElementById(the_moving_div).style.border = "1px solid var(--oc-gray-3)";     // highlight the border of the div
+        document.getElementById(the_moving_div).style.border = "1px solid var(--oc-gray-5)";     // highlight the border of the div
                 
         var divs = document.getElementsByTagName("div");
         e.target.style.zIndex = divs.length;          // put this div  on top
