@@ -39,7 +39,8 @@
     <div>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <section>
-        <p>{{ page.date }} - {{ page.author }}</p>
+        <p>{{ post.date | date: "%F %R" }}</p>
+        <p> </p>
         <p>{{ post.excerpt }}</p>
       </section>
     </div>
