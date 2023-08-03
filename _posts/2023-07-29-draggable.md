@@ -3,7 +3,7 @@ layout: post
 author: ath
 ---
 
-TLDR; I added more draggable stuff. I was itching to create draggable posts on this blog page because it's fun dragging them around. Made them look like Terminal windows to fit the theme.
+TLDR; I added more draggable stuff. I was itching to create draggable posts because it's fun dragging them around. Made them look like Terminal windows to fit the theme.
 
 ### Questioning myself yet again
 
