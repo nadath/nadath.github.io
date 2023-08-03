@@ -3,25 +3,27 @@ layout: post
 author: ath
 ---
 
-TLDR; I added more draggable stuff. I was itching to create draggable posts because it's fun dragging them around. Made them look like Terminal windows to fit the theme.
+TLDR; I added more draggable stuff. I was itching to create draggable posts because it's fun. Made them look like Terminal windows to fit the theme. How it came about, is a rather long-winded story.
 
 ### Questioning myself yet again
 
-I was hit by the realest reality, through an interview for a developer job, about the level of my skill. My dreams are infinitely higher than what I could achieve with my current level. I always do that, unrealistic thinking, and disappoint myself.
+I was hit by the realest reality, through an interview for a developer job, about the level of my skill. It went terribly.
 
-My creative tap was blocked.
+But all praise to God I finally realized that 1. I know nothing; 2. There can be no such job as what I imagined (unless I created the job); 3. My dreams are infinitely higher than what I could achieve. I always do that, unrealistic thinking, and disappoint myself.
 
-For two whole weeks.
+In the wake of the disappointment, my creative tap was blocked.
 
-I continued going to work as usual. It was not so bad after all. All those doubts had gone and I feel this is where I belong, for the moment. 
+For two whole weeks. And the itch about the draggable thing was bothering me in my showers.
 
-I'm not thinking of running away again. This career pivot may not happen soon, but I'm going through with the plan, it's my weekend getaway and I'll need it to keep me sane.
+I went to work as usual. It was not so bad after all. All my doubts about it had gone and I feel I am where I belong, for the moment. 
+
+A career pivot may not happen soon, but I'm going through with the plan, coding is my weekend getaway and I'll need it to keep me sane.
 
 ### To the main thing
 
-Thankfully today, my creative tap flows. What I did first was to modify the code for draggable navbar to make multiple elements draggable. It didn't work.
+Thankfully today, my creative tap flows. The disappointment had passed. What I did first was to modify the code for the draggable navbar to make multiple elements draggable. It didn't work.
 
-Stackoverflow to the rescue. I found an [answer](https://stackoverflow.com/a/63857834/22305530) to the same question I had. Apparently, the method I used for the nav bar (getElementById) only works for a single element. For multiple elements, I needed to use getElementsByTagName.
+Stackoverflow to the rescue. I found an [answer](https://stackoverflow.com/a/63857834/22305530) to the same question I had. Apparently, the method I used for the nav bar only works for a single element, there's no way around it.
 
 I customized the code to make site posts as the draggable elements, scatter them at random, and match the hacker theme I already had going.
 
