@@ -21,7 +21,7 @@ A career pivot may not happen soon, but I'm going through with the plan, coding 
 
 ### To the main thing
 
-After coffee today, my creative tap flows. The disappointment had passed it seems. What I did first was to modify the code for the draggable navbar to make multiple elements draggable. It didn't work.
+After coffee today, my creative tap flowed. The disappointment had passed it seemed. What I did first was to modify the code for the draggable navbar to make multiple elements draggable. It didn't work.
 
 Stackoverflow to the rescue. I found an answer to the same question I had. Apparently, the method I used for the nav bar only works for a single element, there's no way around it.
 
