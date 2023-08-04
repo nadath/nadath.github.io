@@ -3,7 +3,7 @@ layout: post
 author: ath
 ---
 
-TLDR; I added more draggable stuff. I was itching to create draggable posts because it's fun. Made them look like Terminal windows to fit the theme. How it came about, is a rather long-winded story.
+TLDR; I added more draggable stuff. I was itching to create draggable posts because it's fun dragging them around. Taking inspiration from Anon, I merged the concept with the Terminal app look to fit the theme. How it came about, is a rather long-winded story..
 
 ### Questioning myself yet again
 
