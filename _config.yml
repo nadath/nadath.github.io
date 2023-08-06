@@ -57,3 +57,4 @@ permalink: /:title/
 collections:
   art:
     output: true
+    permalink: /:collection/:name
