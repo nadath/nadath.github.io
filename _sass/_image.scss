@@ -29,7 +29,7 @@
   margin-right: auto;
   width: 400px;
   padding: 10px;
-  figure:hover + p {
+  figure:hover + div {
     border: 1px solid var(--oc-green-4);
     display: block;
     }
