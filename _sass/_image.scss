@@ -22,3 +22,12 @@
   width: 110%;
   }
 }
+
+.artpost {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid var(--oc-green-4)
+}
