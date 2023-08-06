@@ -5,9 +5,9 @@ layout: default
 {% include element.html %}
 
 <main>
-  <div class="block">
+  <div class="artpost">
     <h2>{{ page.title }}</h2>
-    <img src="{{ site.thumbsurl }}{{ page.title }}.png" alt="{{ page.title }}" class="artpost">
-    {% include artpost.html txt="{{ content }}" %}
+    <figure><img src="{{ site.thumbsurl }}{{ page.title }}.png" alt="{{ page.title }}"></figure>
+    <p>{% include artpost.html txt="{{ content }}" %}</p>
   </div>
 </main>
