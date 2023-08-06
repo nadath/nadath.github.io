@@ -1,0 +1,17 @@
+<body>
+  <p id="type"></p>
+      
+  <script>
+  var i = 0;
+  var txt = include.txt;
+  var speed = 50;
+  
+  function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("type").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+  </script>
+</body>
