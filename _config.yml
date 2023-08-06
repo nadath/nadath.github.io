@@ -53,3 +53,7 @@ imagesurl: "/assets/img/"
 thumbsurl: "/assets/thumbs/"
 
 permalink: /:title/
+
+collections:
+  art:
+    output: true
