@@ -8,6 +8,6 @@ layout: default
   <div class="block">
     <h2>{{ page.title }}</h2>
     <img src="{{ site.thumbsurl }}{{ page.title }}.png" alt="{{ page.title }}" class="artpost">
-    {{ content }}
+    {% include artpost.html txt="{{ content }}" %}
   </div>
 </main>
