@@ -3,4 +3,4 @@ layout: art
 title: skullamo
 ---
 
-{% include image.html txt="date: 19 May 2020" %}
+{% include artpost.html txt="date: 19 May 2020" %}
