@@ -6,10 +6,21 @@ layout: default
 
 <main>
   <div class="artpost">
-    <figure><img src="{{ site.imagesurl }}{{ page.title }}.png" alt="{{ page.title }}" width="400px"></figure>
+    <figure onclick="Typed"><img src="{{ site.imagesurl }}{{ page.title }}.png" alt="{{ page.title }}" width="400px"></figure>
     <div id="typed-strings">
       {{ content }}
     </div>
-    <p>{% include artpost.html %}</p>
+    <span id="typed"></span>
   </div>
 </main>
+
+<script>
+  var typed = new Typed("#typed", {
+    stringsElement: "#typed-strings",
+    backSpeed: 10,
+    typeSpeed: 30,
+    backDelay: 1000,
+    loop: false,
+    smartBackspace: true,
+  });
+</script>
