@@ -51,5 +51,6 @@ sass:
 
 imagesurl: "/assets/img/"
 thumbsurl: "/assets/thumbs/"
+portfoliourl: "/_portfolio/"
 
 permalink: /:title/
