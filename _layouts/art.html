@@ -8,6 +8,9 @@ layout: default
   <div class="artpost">
     <h2>{{ page.title }}</h2>
     <figure><img src="{{ site.thumbsurl }}{{ page.title }}.png" alt="{{ page.title }}"></figure>
-    <p>{% include artpost.html txt="{{ content }}" %}</p>
+    <div id="typed-strings">
+      {{ content }}
+    </div>
+    <p>{% include artpost.html %}</p>
   </div>
 </main>
