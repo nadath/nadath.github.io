@@ -1,5 +1,5 @@
 ---
 layout: art
-name: skullamo
+title: skullamo
 ---
 
