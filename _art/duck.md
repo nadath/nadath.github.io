@@ -1,8 +1,7 @@
 ---
 layout: art
-title: pixelcat
+title: duck
 ---
 
 date: 17 June 2023;
-name: bed o'clock;
-made with: Paper
+name: bed o'clock

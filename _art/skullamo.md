@@ -4,5 +4,4 @@ title: skullamo
 ---
 
 date: 19 May 2020;
-name: mid-track Amo on X-ray;
-made with: Photoshop
+name: mid-track Amo on X-ray

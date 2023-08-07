@@ -4,5 +4,4 @@ title: pixelcat
 ---
 
 date: 14 May 2020;
-name: witch cat;
-made with: Paper + Photoshop
+name: witch cat
