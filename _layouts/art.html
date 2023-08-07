@@ -5,11 +5,13 @@ layout: default
 {% include element.html %}
 
 <main>
-  <img src="{{ site.imagesurl }}{{ page.title }}.png" alt="{{ page.title }}" class="artpost">
-  <div id="typed-strings">
-    {{ content }}
-  </div>
-  <span id="typed"></span>
+  <div class="artpost">
+    <img src="{{ site.imagesurl }}{{ page.title }}.png" alt="{{ page.title }}">
+    <div id="typed-strings">
+      {{ content }}
+    </div>
+    <span id="typed"></span>
+  </div> 
 </main>
 
 <script>
