@@ -1,5 +1,14 @@
+---
+layout: default
+---
 
-<body>
+{% include element.html %}
+
+<main>
+  <img src="{{ site.imagesurl }}{{ page.title }}.png" alt="{{ page.title }}" width="400px" class="artpost">
+  <div id="typed-strings">
+    <p>{{ content }}</p>
+  </div>
   <span id="typed"></span>
 
   <script>
@@ -12,4 +21,6 @@
       smartBackspace: true,
     });
   </script>
-</body>
+
+</main>
+
