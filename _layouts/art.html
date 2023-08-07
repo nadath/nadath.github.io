@@ -8,7 +8,7 @@ layout: default
   <div class="artpost">
     <figure onclick="typed"><img src="{{ site.imagesurl }}{{ page.title }}.png" alt="{{ page.title }}" width="400px"></figure>
     <div id="typed-strings">
-      {{ content }}
+      <p>{{ content | newlines_to_br }}</p>
     </div>
     <span id="typed"></span>
   </div>
