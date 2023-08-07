@@ -5,22 +5,20 @@ layout: default
 {% include element.html %}
 
 <main>
-  <img src="{{ site.imagesurl }}{{ page.title }}.png" alt="{{ page.title }}" width="400px" class="artpost">
+  <img src="{{ site.imagesurl }}{{ page.title }}.png" alt="{{ page.title }}" class="artpost">
   <div id="typed-strings">
     <p>{{ content }}</p>
   </div>
   <span id="typed"></span>
-
-  <script>
-    var typed = new Typed("#typed", {
-      stringsElement: "#typed-strings",
-      backSpeed: 10,
-      typeSpeed: 30,
-      backDelay: 1000,
-      loop: false,
-      smartBackspace: true,
-    });
-  </script>
-
 </main>
 
+<script>
+  var typed = new Typed("#typed", {
+    stringsElement: "#typed-strings",
+    backSpeed: 10,
+    typeSpeed: 30,
+    backDelay: 1000,
+    loop: false,
+    smartBackspace: true,
+  });
+</script>
