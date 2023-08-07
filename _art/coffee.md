@@ -1,7 +1,7 @@
 ---
 layout: art
-title: duck
+title: coffee
 ---
 
 date: 17 June 2023;
-name: cute duck meme
+name: iced coffee at home
