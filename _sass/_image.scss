@@ -27,7 +27,16 @@
   display: inline-flex;
   margin-left: auto;
   margin-right: auto;
+  width: 400px;
   padding: 10px;
-  border: 1px solid var(--oc-gray-5);
-  background: var(--oc-green-8);
+  border: 1px solid var(--oc-gray-4);
+}
+
+.typedbox {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 1px solid var(--oc-gray-4);
+  background: var(--oc-gray-8);
 }
