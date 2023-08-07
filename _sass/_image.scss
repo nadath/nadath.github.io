@@ -24,7 +24,7 @@
 }
 
 .artpost {
-  display: inline-block;
+  display: flex;
   width: 400px;
   padding: 10px;
   border: 1px solid var(--oc-gray-6);
@@ -33,9 +33,9 @@
 }
 
 .typedbox {
-  display: inline-block;
+  display: inline-flex;
   padding: 10px;
   border: 1px solid var(--oc-gray-6);
-  background: var(--oc-gray-8);
+  background: var(--oc-black);
   border-radius: 2px;
 }
