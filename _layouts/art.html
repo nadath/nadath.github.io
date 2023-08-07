@@ -7,7 +7,9 @@ layout: default
 <main>
   <img src="{{ site.imagesurl }}{{ page.title }}.png" alt="{{ page.title }}" class="artpost">
   <div id="typed-strings">
-    <p>{{ content }}</p>
+    {% for i in {{ content }} %}
+      <span>{{ i | prepend: '>' }}</span>
+    {% endfor %}
   </div>
   <span id="typed"></span>
 </main>
