@@ -3,12 +3,12 @@
 title: nadio
 description: hyde to my jekyll
 baseurl: ""
-url: https://nadio.github.io
+url: https://nadath.github.io
 
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
 json:
-  name: nadio
+  name: nadia
   description:
     - Hello!
     - Welcome to my tiny website
@@ -23,9 +23,9 @@ json:
   contact:
     #office: Foobar Hall 1.23
     phone: +12 3456 7890
-    email: nadio@gmail.com
-  art: https://nadio.github.io/art/
-  blog: https://nadio.github.io/blog/
+    email: nadath@gmail.com
+  art: https://nadath.github.io/art/
+  blog: https://nadath.github.io/blog/
   profiles:
     #facebook: https://www.facebook.com
     #twitter: https://twitter.com/
