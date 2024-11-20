@@ -1,9 +1,9 @@
 # this is only for search engines, it does not appear in the home
 # as long as the json variables name and description are provided
-title: Ath
+title: nadio
 description: hyde to my jekyll
 baseurl: ""
-url: https://nadath.github.io
+url: https://nadio.github.io
 
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
