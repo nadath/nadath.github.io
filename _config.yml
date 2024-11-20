@@ -8,12 +8,12 @@ url: https://nadath.github.io
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
 json:
-  name: Ath
+  name: nadio
   description:
     - Hello!
-    - This tiny website
-    - Looks barren
-    - Might create some arts
+    - Welcome to my tiny website
+    - It looks barren, I know
+    - Might create some arts...
     - Later!
   cv: assets/cv.pdf
   address:
@@ -23,9 +23,9 @@ json:
   contact:
     #office: Foobar Hall 1.23
     phone: +12 3456 7890
-    email: ath@gmail.com
-  art: https://nadath.github.io/art/
-  blog: https://nadath.github.io/blog/
+    email: nadio@gmail.com
+  art: https://nadio.github.io/art/
+  blog: https://nadio.github.io/blog/
   profiles:
     #facebook: https://www.facebook.com
     #twitter: https://twitter.com/
