@@ -4,4 +4,4 @@ title: duck
 ---
 
 date: 17 June 2023;
-name: cute duck meme
+name: sleep now or die
