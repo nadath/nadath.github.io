@@ -1,13 +1,11 @@
 #element {
   position: fixed;
-  width: 20px;
-  height: 20px;
   top: 0;
-  right: 20px;
-  z-index: 1;
+  right: 30px;
   }
 
 #elementheader {
-  cursor: grab;
   background-color: var(--oc-gray-9);
+  float: right;
+  z-index: 1;
 }
