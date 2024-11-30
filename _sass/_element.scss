@@ -1,11 +1,11 @@
 #element {
   position: fixed;
   top: 0;
-  right: 30px;
+  right: 20px;
+  z-index: 1;
   }
 
 #elementheader {
   background-color: var(--oc-gray-9);
   float: right;
-  z-index: 1;
 }
