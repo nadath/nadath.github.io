@@ -41,6 +41,6 @@
   transition: 0.4s;
 }
 
-.dropbtn:active .bar1 {transform: translate(0, 8px) rotate(-45deg);}
-.dropbtn:active .bar2 {opacity: 0;}
-.dropbtn:active .bar3 {transform: translate(0, -8px) rotate(45deg);}
+.change .bar1 {transform: translate(0, 8px) rotate(-45deg);}
+.change .bar2 {opacity: 0;}
+.change .bar3 {transform: translate(0, -8px) rotate(45deg);}
