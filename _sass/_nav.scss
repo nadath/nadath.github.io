@@ -11,7 +11,7 @@
   transition: 0.4s;
 }
 
-.container:hover .bar1 {transform: translate(0, 8px) rotate(-45deg);}
-.container:hover .bar2 {opacity: 0;}
-.container:hover .bar3 {transform: translate(0, -8px) rotate(45deg);}
+.container:active .bar1 {transform: translate(0, 8px) rotate(-45deg);}
+.container:active .bar2 {opacity: 0;}
+.container:active .bar3 {transform: translate(0, -8px) rotate(45deg);}
   
