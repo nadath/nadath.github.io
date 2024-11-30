@@ -5,7 +5,6 @@
   margin: 0;
   border: none;
   cursor: pointer;
-  z-index: 5;
 }
   
 .dropbtn:hover, .dropbtn:focus {
@@ -23,7 +22,6 @@
   background-color: var(--oc-gray-9);
   width: min-content;
   overflow: auto;
-  z-index: 1;
 }
 
 .dropdown-content a {
