@@ -31,6 +31,14 @@
             openDropdown.classList.remove('show');
           }
         }
+        var bars = document.getElementsByClassName("dropbtn");
+        var j;
+        for (j = 0; j < bars.length; j++) {
+          var changeBar = bars[j];
+          if (changeBar.classList.contains('change')) {
+            changeBar.classList.remove('change');
+          }
+        }
       }
     }
   </script>
