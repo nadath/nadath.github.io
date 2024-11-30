@@ -1,6 +1,5 @@
 #element {
   position: fixed;
-  z-index: 2;
   width: 20px;
   height: 20px;
   top: 0;
@@ -10,5 +9,4 @@
 #elementheader {
   cursor: grab;
   background-color: var(--oc-gray-9);
-  z-index: 3;
 }
