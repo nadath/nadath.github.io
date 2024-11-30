@@ -8,12 +8,12 @@ url: https://nadath.github.io
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
 json:
-  name: nadia
+  name: надя
   description:
     - Hello!
     - This is a tiny website
     - It looks barren, I know
-    - Might create some arts...
+    - Might create some art...
     - Later!
   cv: assets/cv.pdf
   address:
@@ -28,11 +28,11 @@ json:
   blog: https://nadath.github.io/blog/
   profiles:
     #facebook: https://www.facebook.com
-    #twitter: https://twitter.com/
-    #instagram: https://www.instagram.com/
+    twitter: https://twitter.com/nadianadzair
+    instagram: https://www.instagram.com/nadianadzair
     #linkedin: https://www.linkedin.com/in/
     #stackoverflow: https://stackoverflow.com
-    github: https://github.com/nadath
+    #github: https://github.com/nadath
 
 exclude:
   - LICENSE
