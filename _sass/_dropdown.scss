@@ -8,7 +8,7 @@
 }
   
 .dropbtn:hover, .dropbtn:focus {
-  border: 1px dashed var(--oc-green-4);
+  border: 1px solid var(--oc-green-4);
 }
 
 .dropdown {
@@ -30,6 +30,6 @@
   display: block;
 }
 
-.dropdown a:hover {border: 1px dashed var(--oc-green-4)}
+.dropdown a:hover {border: 1px solid var(--oc-green-4)}
 
 .show {display: block;}
