@@ -1,6 +1,6 @@
 # this is only for search engines, it does not appear in the home
 # as long as the json variables name and description are provided
-title: nadio
+title: ath
 description: hyde to my jekyll
 baseurl: ""
 url: https://nadath.github.io
@@ -11,7 +11,7 @@ json:
   name: nadia
   description:
     - Hello!
-    - Welcome to my tiny website
+    - This is a tiny website
     - It looks barren, I know
     - Might create some arts...
     - Later!
