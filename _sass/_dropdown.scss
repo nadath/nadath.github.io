@@ -33,21 +33,38 @@
 
 .show {display: block;}
 
-.bar1, .bar3 {
+.bar1 {
   width: 2px;
   height: 30px;
   background-color: var(--oc-green-4);
-  margin: 0 12px;
+  margin: 6px 0;
   transition: 0.4s;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 .bar2 {
   width: 2px;
   height: 30px;
   background-color: var(--oc-green-4);
-  margin: 0 6px;
+  margin: 6px 0;
   transition: 0.4s;
-  transform: rotate(60);
+  transform: rotate(60deg);
+  position: relative;
+  top: 0;
+  left: 6px;
+}
+
+.bar3 {
+  width: 2px;
+  height: 30px;
+  background-color: var(--oc-green-4);
+  margin: 6px 0;
+  transition: 0.4s;
+  position: relative;
+  top: 0;
+  left: 12px;
 }
 
 .change .bar1 {transform: rotate(-25deg);}
