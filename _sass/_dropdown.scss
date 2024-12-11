@@ -51,8 +51,8 @@
   margin: 6px 0;
   transition: 0.4s;
   transform: rotate(-30deg);
-  position: relative;
-  top: -36px;
+  position: absolute;
+  top: 0;
   left: 6px;
 }
 
@@ -62,11 +62,11 @@
   background-color: var(--oc-green-4);
   margin: 6px 0;
   transition: 0.4s;
-  position: relative;
-  top: -72px;
-  left: 6px;
+  position: absolute;
+  top: 0;
+  left: 12px;
 }
 
 .change .bar1 {transform: rotate(25deg);}
-.change .bar2 {transform: rotate(-60deg);}
+.change .bar2 {transform: rotate(-90deg);}
 .change .bar3 {transform: rotate(-25deg);}
